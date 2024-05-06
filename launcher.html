@@ -8,24 +8,29 @@
   <title>HTML Launcher</title>
   <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="launcher.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/launcher/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/launcher/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/launcher/favicon-16x16.png">
+
   </head>
 
 <body>
   <header id="header">
 
     <div class="logo">
-      <a href="" rel="home" title="Bootstrap Templates | Premium & Free Download" title="Back to BootstrapMade Homepage"><img alt="BootstrapMade" src="/img/logo.gif"></a>
+      <a href="" rel="home" title="Bootstrap Templates | Premium & Free Download" title="Back to BootstrapMade Homepage"><img alt="BootstrapMade" src="./img/launcher/logo.gif"></a>
     </div>
     <div class="preview-devices">
       <ul>
         <li class="preview-test preview-devices-active" id="preview-test-desktop" title="Desktop Preview"><a href="">
-          <img id="pc" alt="BootstrapMade" src="/img/pc2.gif" onclick="pc()"></a>
+          <img id="pc" alt="BootstrapMade" src="./img/launcher/pc2.gif" onclick="pc()"></a>
         </a></li>
         <li class="preview-test" id="preview-test-tablet" title="Tablet Preview"><a href="">
-          <img id="tablet" alt="BootstrapMade" src="/img/tablet.gif" onclick="tablet()">
+          <img id="tablet" alt="BootstrapMade" src="./img/launcher/tablet.gif" onclick="tablet()">
         </a></li>
         <li class="preview-test" id="preview-test-mobile" title="Mobile Preview"><a href="">
-          <img id="phone" alt="BootstrapMade" src="/img/phone.gif" width=18px onclick="phone()">
+          <img id="phone" alt="BootstrapMade" src="./img/launcher/phone.gif" width=18px onclick="phone()">
         </a></li>
         
         <li class="preview-test2" id="device" title="Mobile Preview">
@@ -35,22 +40,22 @@
 
     <script>
       function pc() {
-        document.getElementById("pc").src = "/img/pc2.gif"; 
-        document.getElementById("tablet").src = "/img/tablet.gif";        
-        document.getElementById("phone").src = "/img/phone.gif"; 
+        document.getElementById("pc").src = "./img/launcher/pc2.gif"; 
+        document.getElementById("tablet").src = "./img/launcher/tablet.gif";        
+        document.getElementById("phone").src = "./img/launcher/phone.gif"; 
         document.getElementById("device").innerHTML = "Desktop View";            
         
       }
       function tablet() {
-        document.getElementById("pc").src = "/img/pc.gif"; 
-        document.getElementById("tablet").src = "/img/tablet2.gif";        
-        document.getElementById("phone").src = "/img/phone.gif";    
+        document.getElementById("pc").src = "./img/launcher/pc.gif"; 
+        document.getElementById("tablet").src = "./img/launcher/tablet2.gif";        
+        document.getElementById("phone").src = "./img/launcher/phone.gif";    
         document.getElementById("device").innerHTML = "Tablet View";  
       }
       function phone() {
-        document.getElementById("pc").src = "/img/pc.gif"; 
-        document.getElementById("tablet").src = "/img/tablet.gif";        
-        document.getElementById("phone").src = "/img/phone2.gif";  
+        document.getElementById("pc").src = "./img/launcher/pc.gif"; 
+        document.getElementById("tablet").src = "./img/launcher/tablet.gif";        
+        document.getElementById("phone").src = "./img/launcher/phone2.gif";  
         document.getElementById("device").innerHTML = "Phone View";  
       }
       
