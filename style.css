@@ -38,18 +38,18 @@ header {
 .logo {
 
     text-decoration: none;
-    color: #ABA944;
+    color: #556970;
     padding-left: 0px;
-    font-size: 22px;
+    font-size: 26px;
     border: skyblue 0px solid;
-    margin: 5px 0px 0px 10px;
+    margin: 0px 0px 5px 10px;
 
 
 }
 
 .logoImg {
 
-    margin: 10px 0px 0px 10px;
+    margin: 0px 0px 5px 10px;
     border: skyblue 0px solid;
     text-align: center;
 }
@@ -102,8 +102,9 @@ header {
 .content_nav li a {
 
     text-decoration: none;
-    color: #ABA944;
+    color: #556970;
     position: relative;
+  
 
 }
 
