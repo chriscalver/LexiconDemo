@@ -42,14 +42,14 @@ header {
     padding-left: 0px;
     font-size: 26px;
     border: skyblue 0px solid;
-    margin: 0px 0px 5px 10px;
+    margin: 0px 0px 10px 10px;
 
 
 }
 
 .logoImg {
 
-    margin: 0px 0px 5px 10px;
+    margin: 0px 0px 10px 10px;
     border: skyblue 0px solid;
     text-align: center;
 }
@@ -70,7 +70,7 @@ header {
 .label {
 
     display: none;
-    color: white;
+    color: rgb(144, 20, 20);
 
 }
 
@@ -113,7 +113,7 @@ header {
     content: '';
     display: block;
     height: 2px;
-    background-color: white;
+    background-color: #556970;
     position: absolute;
     left: 0;
     right: 0;
